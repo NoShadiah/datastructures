@@ -6,6 +6,6 @@ mydictionary = {'students': [{'firstName': 'Nikki', 'lastName': 'Roysden'},
                 'teachers': [{'firstName': 'Amberly','lastName': 'Calico'},
                             {'firstName': 'Regine', 'lastName': 'Agtarap'}]}
 
-# Createing the json file
+# Creating the json file and feeding the dict 
 with open('the_jsonfile.json', 'w') as f:
     json.dump(mydictionary, f)
